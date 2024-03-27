@@ -1,0 +1,11 @@
+step1 : change directory to bookReview
+
+step2 : activate the environment use the command (env\Scripts\activate)
+
+step3 : install the packages mentioned in requirements.txt
+
+step4 : change directory to backend
+
+step5 : run the following command to start the application (uvicorn bookReview:app --reload)
+
+Prerequisites : mongodb has to be installed in you local machine
