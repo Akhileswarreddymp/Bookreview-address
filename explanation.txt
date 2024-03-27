@@ -4,7 +4,7 @@ step2 : activate the environment use the command (env\Scripts\activate)
 
 step3 : install the packages mentioned in requirements.txt
 
-step4 : change directory to backend
+step4 : change directory to backend_files
 
 step5 : run the following command to start the application (uvicorn bookReview:app --reload)
 
