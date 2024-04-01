@@ -25,7 +25,7 @@ async def new_book(request : NewBook):
 @app.post("/books/{book_id}/reviews",tags=["Book"])
 async def book_review(book_id : str,request : book_reviews):
     if not isinstance(request,dict):
-        data = dict(request)
+        data = dict(request) 
     else:
         data = request
     try:
